@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/JeffreyOomen/immuneit-workshop-gitops
     targetRevision: HEAD
-    path: dev
+    path: product-service-gitops/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: sb-namespace
